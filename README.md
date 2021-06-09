@@ -21,7 +21,7 @@
 5주차 : 로딩페이지, 아이콘 구현. 색, 글씨체 수정, 가독성이 좋은 그래프를 사용. <br/>
 
 
-![image](https://user-images.githubusercontent.com/64747722/121365495-a913c800-c973-11eb-9c22-56963d37d3b0.png) ![image](https://user-images.githubusercontent.com/64747722/121365556-b7fa7a80-c973-11eb-8a80-b1116d05c568.png) ![image](https://user-images.githubusercontent.com/64747722/121365601-c052b580-c973-11eb-9527-fbb866850294.png) ![image](https://user-images.githubusercontent.com/64747722/121365629-c6e12d00-c973-11eb-8fcf-fe61280ece04.png) ![image](https://user-images.githubusercontent.com/64747722/121365655-cc3e7780-c973-11eb-9cdc-14088a731b03.png) <br/>
+![image](https://user-images.githubusercontent.com/64747722/121365495-a913c800-c973-11eb-9c22-56963d37d3b0.png)![image](https://user-images.githubusercontent.com/64747722/121365556-b7fa7a80-c973-11eb-8a80-b1116d05c568.png)![image](https://user-images.githubusercontent.com/64747722/121365601-c052b580-c973-11eb-9527-fbb866850294.png)![image](https://user-images.githubusercontent.com/64747722/121365629-c6e12d00-c973-11eb-8fcf-fe61280ece04.png)![image](https://user-images.githubusercontent.com/64747722/121365655-cc3e7780-c973-11eb-9cdc-14088a731b03.png)<br/>
 - 어플 아이콘 - 로딩 화면 - 시작 후 첫 화면 - 마커 클릭시 화면 - 가뭄 발생 시 행동 요령
 
 
