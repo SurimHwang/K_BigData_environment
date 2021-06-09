@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp">
+
+        <TextView
+            android:layout_width="410dp"
+            android:layout_height="38dp"
+            android:layout_x="2dp"
+            android:layout_y="6dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="가뭄 시 행동 요령"
+            android:fontFamily="@font/huwind"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+    </AbsoluteLayout>
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="53dp"
+
+        android:background="@drawable/border3">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_x="73dp"
+            android:layout_y="20dp"
+            android:src="@drawable/action_img_00_01" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_x="156dp"
+            android:layout_y="20dp"
+            android:src="@drawable/action_img_00_02" />
+
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_x="240dp"
+            android:layout_y="20dp"
+            android:src="@drawable/action_img_00_03" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_x="325dp"
+            android:layout_y="20dp"
+            android:src="@drawable/action_img_00_04" />
+
+        <TextView
+            android:id="@+id/tv_htd1"
+            android:layout_width="352dp"
+            android:layout_height="27dp"
+            android:layout_x="61dp"
+            android:layout_y="103dp"
+            android:gravity="center"
+            android:text="낭비되는 물이 없는지 점검하기"
+            android:textColor="#000000"
+            android:fontFamily="@font/huwind"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/tv_result1"
+            android:layout_width="60dp"
+            android:layout_height="150dp"
+            android:background="#FDFA37"
+            android:gravity="center"
+            android:text="관심\n(약한 가뭄)"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:fontFamily="@font/huwind"
+            android:textStyle="bold" />
+    </AbsoluteLayout>
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_x="0dp"
+        android:layout_y="215dp"
+        android:background="@drawable/border3">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_x="73dp"
+            android:layout_y="20dp"
+            android:src="@drawable/action_img_04" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_x="156dp"
+            android:layout_y="20dp"
+            android:src="@drawable/action_img_05" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_x="240dp"
+            android:layout_y="20dp"
+            android:src="@drawable/action_img_06" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_x="325dp"
+            android:layout_y="20dp"
+            android:src="@drawable/action_img_07" />
+
+        <TextView
+            android:id="@+id/tv_htd2_1"
+            android:layout_width="75dp"
+            android:layout_height="27dp"
+            android:layout_x="73dp"
+            android:layout_y="104dp"
+            android:gravity="center"
+            android:text=" 세척·세수·샤워 시 물을 받아 사용"
+            android:fontFamily="@font/huwind"
+            android:textColor="#000000"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/tv_htd2_2"
+            android:layout_width="75dp"
+            android:layout_height="27dp"
+            android:layout_x="156dp"
+            android:layout_y="104dp"
+            android:gravity="center"
+            android:text=" 양치질할 때는 반드시 컵을 사용"
+            android:fontFamily="@font/huwind"
+            android:textColor="#000000"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/tv_htd2_3"
+            android:layout_width="75dp"
+            android:layout_height="36dp"
+            android:layout_x="240dp"
+            android:layout_y="104dp"
+            android:gravity="center"
+            android:text=" 변기의 물통에 페트병이나 벽돌을 넣어 사용"
+            android:fontFamily="@font/huwind"
+            android:textColor="#000000"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/tv_htd2_4"
+            android:layout_width="75dp"
+            android:layout_height="36dp"
+            android:layout_x="325dp"
+            android:layout_y="104dp"
+            android:gravity="center"
+            android:text=" 정원·꽃밭에는 한번사용한 허드렛물 사용"
+            android:fontFamily="@font/huwind"
+            android:textColor="#000000"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/tv_result2"
+            android:layout_width="60dp"
+            android:layout_height="150dp"
+            android:background="#FD9D37"
+            android:gravity="center"
+            android:text="주의\n(보통 가뭄)"
+            android:fontFamily="@font/huwind"
+            android:textColor="#fff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </AbsoluteLayout>
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_x="0dp"
+        android:layout_y="377dp"
+        android:background="@drawable/border3">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_x="73dp"
+            android:layout_y="20dp"
+            android:src="@drawable/action_img_08" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_x="156dp"
+            android:layout_y="20dp"
+            android:src="@drawable/action_img_09" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_x="240dp"
+            android:layout_y="20dp"
+            android:src="@drawable/action_img_10" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_x="325dp"
+            android:layout_y="20dp"
+            android:src="@drawable/action_img_11" />
+
+        <TextView
+            android:id="@+id/tv_htd3_1"
+            android:layout_width="75dp"
+            android:layout_height="27dp"
+            android:layout_x="73dp"
+            android:layout_y="104dp"
+            android:gravity="center"
+            android:text=" 절수용품 설치하기"
+            android:fontFamily="@font/huwind"
+            android:textColor="#000000"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/tv_htd3_2"
+            android:layout_width="75dp"
+            android:layout_height="27dp"
+            android:layout_x="156dp"
+            android:layout_y="104dp"
+            android:gravity="center"
+            android:text=" 빗물 및 재활용수 이용하기"
+            android:fontFamily="@font/huwind"
+            android:textColor="#000000"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/tv_htd3_3"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_x="240dp"
+            android:layout_y="104dp"
+            android:gravity="center"
+            android:text=" 세탁할 때는 한꺼번에 모아서
+마지막 헹굼물 재활용"
+            android:fontFamily="@font/huwind"
+            android:textColor="#000000"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/tv_htd3_4"
+            android:layout_width="75dp"
+            android:layout_height="36dp"
+            android:layout_x="325dp"
+            android:layout_y="104dp"
+            android:gravity="center"
+            android:text=" 식기에 묻은 음식물찌꺼기를
+휴지로 닦고 세척"
+            android:fontFamily="@font/huwind"
+            android:textColor="#000000"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/tv_result3"
+            android:layout_width="60dp"
+            android:layout_height="150dp"
+            android:background="#FF2323"
+            android:gravity="center"
+            android:text="경계\n(심한 가뭄)"
+            android:fontFamily="@font/huwind"
+            android:textColor="#fff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </AbsoluteLayout>
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_x="0dp"
+        android:layout_y="541dp"
+        android:background="@drawable/border3">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_x="147dp"
+            android:layout_y="18dp"
+            android:src="@drawable/action_img_12" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_x="273dp"
+            android:layout_y="18dp"
+            android:src="@drawable/action_img_13" />
+
+        <TextView
+            android:id="@+id/tv_htd4_1"
+            android:layout_width="84dp"
+            android:layout_height="38dp"
+            android:layout_x="143dp"
+            android:layout_y="100dp"
+            android:gravity="center"
+            android:text=" 개인소유의 우물(관정 포함)은
+공동으로 이용"
+            android:fontFamily="@font/huwind"
+            android:textColor="#000000"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/tv_htd4_2"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:layout_x="268dp"
+            android:layout_y="100dp"
+            android:gravity="center"
+            android:text=" 제한급수 등 국가 가뭄대응 단계별
+대응요령에 적극 동참하기"
+            android:fontFamily="@font/huwind"
+            android:textColor="#000000"
+            android:textSize="9sp" />
+
+        <TextView
+            android:id="@+id/tv_result4"
+            android:layout_width="60dp"
+            android:layout_height="150dp"
+            android:background="#000"
+            android:gravity="center"
+            android:text="심각\n(극심한 가뭄)"
+            android:fontFamily="@font/huwind"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </AbsoluteLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_x="0dp"
+        android:layout_y="706dp"
+        android:gravity="right"
+        android:textSize="10sp"
+        android:text="국가가뭄정보포털 : www.drought.go.kr" />
+
+</AbsoluteLayout>
